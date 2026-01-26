@@ -31,3 +31,5 @@ elif sex == "女性":
 
 else:
     show_df = filtered.set_index("Age Group (5-year intervals)")[["Male Population", "Female Population"]]
+
+st.bar_chart(show_df)
