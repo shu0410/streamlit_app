@@ -24,10 +24,10 @@ filtered = df[
 ]
 
 if sex == "男性":
-    show_df = filtered.set_index("Age Group (5-year intervals)")[["Male"]]
+    show_df = filtered.set_index("Age Group (5-year intervals)")[["Male Population"]]
 
 elif sex == "女性":
-    show_df = filtered.set_index("Age Group (5-year intervals)")[["Female"]]
+    show_df = filtered.set_index("Age Group (5-year intervals)")[["Female Population"]]
 
 else:
-    show_df = filtered.set_index("Age Group (5-year intervals)")[["Male", "Female"]]
+    show_df = filtered.set_index("Age Group (5-year intervals)")[["Male Population", "Female Population"]]
