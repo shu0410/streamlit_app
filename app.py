@@ -19,8 +19,8 @@ age_min, age_max = st.slider(
 )
 
 filtered = df[
-    (df["年齢"] >= age_min) &
-    (df["年齢"] <= age_max)
+    (df["Age Group (5-year intervals)"] >= age_min) &
+    (df["Age Group (5-year intervals)"] <= age_max)
 ]
 
 if sex == "男性":
