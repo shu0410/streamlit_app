@@ -3,10 +3,10 @@ import pandas as pd
 
 st.title("年齢別・男女別人口アプリ")
 
-with st.sidebar:
+df = pd.read_csv("population.csv")
+st.write(df.head())
 
-    df = pd.read_csv("population.csv")
-    st.write(df.head())
+with st.sidebar:
 
     sex = st.radio(
         "表示する性別を選択",
