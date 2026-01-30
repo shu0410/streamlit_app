@@ -50,7 +50,8 @@ st.line_chart(show_df)
 
 
 
-st.warning("⚠ Needs review")
+st.markdown("⚠️ Needs review")
+comment = st.text_area("review")
 
 st.text("Read Me!!")
 st.download_button(
