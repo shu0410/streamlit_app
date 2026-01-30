@@ -54,7 +54,7 @@ st.warning("⚠ Needs review")
 
 st.text("Read Me!!")
 st.download_button(
-    label="テキストをダウンロード"
-    data="閲覧してくださりありがとうございます。"
-    file_name="Thank you.txt"
+    label="テキストをダウンロード":
+    data="閲覧してくださりありがとうございます。":
+    file_name="Thank you.txt":
 )
