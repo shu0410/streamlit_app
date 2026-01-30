@@ -50,8 +50,6 @@ st.bar_chart(show_df)
 st.subheader("年齢総別 人口推移（全国）")
 st.line_chart(show_df)
 
-
-
 st.markdown("⚠️ Needs review")
 comment = st.text_area("review")
 
