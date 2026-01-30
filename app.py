@@ -47,4 +47,4 @@ st.bar_chart(show_df)
 
 st.line_chart(show_df)
 
-st.markdown(":orange-badge[⚠ Needs review]")
+st.badge("Needs review")
