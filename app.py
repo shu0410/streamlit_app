@@ -14,6 +14,7 @@ st.write("サイドバーで表示する性別を選択し、年齢範囲を選�
 
 df = pd.read_csv("population.csv")
 st.write(df.head())
+st.caption("※1920年から2015年までのデータです")
 
 with st.sidebar:
 
@@ -46,5 +47,7 @@ else:
 st.bar_chart(show_df)
 
 st.line_chart(show_df)
+
+
 
 st.warning("⚠ Needs review")
