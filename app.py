@@ -44,8 +44,10 @@ elif sex == "女性":
 else:
     show_df = filtered.set_index("Age Group (5-year intervals)")[["Male Population", "Female Population"]]
 
+st.subheader("年齢層別 人口分布（全国）")
 st.bar_chart(show_df)
 
+st.subheader("年齢総別 人口推移（全国）")
 st.line_chart(show_df)
 
 
